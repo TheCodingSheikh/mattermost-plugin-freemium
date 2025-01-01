@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.0](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/compare/v1.4.1...v2.0.0) (2025-01-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* initial commit
+
+### Features
+
+* add additional fixes for the boards plugin ([ba240c2](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/ba240c2030e1c71b5c33cfcec5e7278566caf0ca))
+* add more board fixes ([6d16f90](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/6d16f90d11ccfac64c4e5e5b105f77b47bb40c60))
+* add new mobile related fixes ([23d2bc9](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/23d2bc91ef3ffd98d05864bf1a94bbc825295715))
+* add styling fixes for the previously official boards plugin ([001c0a7](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/001c0a7bd9f7043eb68eca573b9f58c9af075f18))
+
+
+### Bug Fixes
+
+* improve board search dialog ([10d2738](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/10d2738fa7abbd3da658a72976ec6ea7e6c359ec))
+* revise structural issues ([9ddcf41](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/9ddcf411ee7cd253715ffc00981a860b3551ab9c))
+
+
+### Miscellaneous Chores
+
+* initial commit ([a49f815](https://github.com/TheCodingSheikh/mattermost-plugin-freemium/commit/a49f815248f78f843722507dcdf915031368c5c6))
+
 ## [1.4.1](https://github.com/dy0gu/mattermost-plugin-freemium/compare/v1.4.0...v1.4.1) (2024-11-29)
 
 
