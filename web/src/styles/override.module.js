@@ -1,4 +1,5 @@
 // Hide the Mattermost name, icon, and free label tag from the login page
+document.addEventListener('DOMContentLoaded', () => {
 for (const el of document.querySelectorAll('.header-logo-link > .freeBadge')) {
     el.parentNode.style.display = 'none';
 }
@@ -31,3 +32,4 @@ for (const el of document.querySelectorAll('div[role="dialog"] > #StartTrialForm
         dialog.style.display = 'none';
     }
 }
+});
