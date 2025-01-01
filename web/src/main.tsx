@@ -6,6 +6,7 @@ import js from "~/styles/override.module.js?raw";
 import type { PluginRegistry } from "~/types/mattermost";
 
 // https://developers.mattermost.com/integrate/reference/webapp/webapp-reference
+// test
 export default class Plugin {
 	public initialize(_registry: PluginRegistry, _store: Store<GlobalState, Action<string>>) {
 		const script = document.createElement("script");
