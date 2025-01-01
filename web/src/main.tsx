@@ -12,8 +12,8 @@ export default class Plugin {
 		style.textContent = css;
 		document.head.appendChild(style);
 		const script = document.createElement("script");
-		script.src = "~/styles/override.module.js"; // Specify the source of the script.
 		script.defer = true; // Add defer attribute.
+		script.textContent = js;
 		document.body.appendChild(script);
 	}
 }
