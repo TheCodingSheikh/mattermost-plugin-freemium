@@ -35,5 +35,5 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: >
-          gh release upload ${{ needs.metadata.outputs.tag-name }}
+          gh release upload v1.0.0 ${{ needs.metadata.outputs.tag-name }}
           plugin/freemium.tar.gz
