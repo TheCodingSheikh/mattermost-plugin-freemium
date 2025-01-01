@@ -22,7 +22,7 @@ jobs:
           release-type: simple
   build:
     needs: [metadata]
-    if: ${{ needs.metadata.outputs.release-created}}
+    # if: ${{ needs.metadata.outputs.release-created}}
     uses: ./.github/workflows/build.yaml
   upload:
     needs: [metadata, build]
